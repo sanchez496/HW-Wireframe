@@ -1,5 +1,7 @@
 
-
+.center{
+	text-align: center
+}
 *{
 	box-sizing: border-box;
 	text-align: center;
@@ -32,6 +34,7 @@ header{
 	 }
 
 #section{
+	text-align: center;
 	background: #ebebeb;
 	width: 400px;
 	height: 200px;
@@ -50,24 +53,26 @@ header{
 	padding: 10px;
 }
 #article{ 
-	position: absolute;
-	left: 245px;
+	float: left;
+	/*left: 245px;*/
 	z-index: 1;
-	margin-top: 40px;
+	margin-top: 10px;
+	margin-left: 35px;
 	background-color: #777;
-	width: 33%;
-	height: 150px;
+	width: 80%;
+	height: 140px;
 	overflow: auto;
 	padding: 10px;
  }
 
 #h1{
 	background: #ebebeb;
-	width: 30%;
+	width: 75%;
 	height: 40px;
-	position: absolute;
-	left: 260px;
-	margin-top: 80px;
+	/*position: absolute;*/
+	/*left: 260px;*/
+	margin-top: 10px;
+	margin-left: 40px;
 	z-index: 2;
 	border: 1px solid #eee;
 	padding: 10px;
@@ -75,13 +80,14 @@ header{
 }
 	#p{
 		background-color: #ebebeb;
-		width: 30%;
+		width: 75%;
 		height: 40px;
-		position: absolute;
-		left: 260px;
+		/*position: float left*/
+		/*left: 20px;*/
 		z-index: 2;
 		padding: 10px;
-		margin-top: 140px;
+		margin-top: 60px;
+		margin-left: 40px
 	}
 
 
